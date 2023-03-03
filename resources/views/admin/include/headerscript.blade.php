@@ -1,0 +1,2 @@
+<link rel="stylesheet" type="text/css" href="<?=asset('admin-assets/css/bootstrap.min.css');?>">
+<link rel="stylesheet" type="text/css" href="<?=asset('admin-assets/css/dataTables.bootstrap5.min.css');?>">

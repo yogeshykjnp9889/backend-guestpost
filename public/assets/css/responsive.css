@@ -1,0 +1,446 @@
+.nav-menu-icon {
+    display: none;
+}
+
+@media screen and (min-width: 600px) {
+    /* .nav-menu-icon {
+            display: none;
+        } */
+    div#myTopnav {
+        display: flex;
+        align-items: center;
+    }
+    
+}
+
+@media screen and (max-width: 667px) {
+    /*Global Heading style*/
+    h1 {
+        font-size: 25px;
+    }
+    .cm-lr-mob-pad {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .cm-mob-full-width {
+        width: 100% !important;
+    }
+    .overflow{
+        overflow-x: auto;
+    }
+    .overflow table{
+        width: 600px;
+    }
+    .cm-mob-none {
+        display: none;
+    }
+    .cm-mob-wrap {
+        flex-wrap: wrap;
+    }
+    .cm-mob-mb-20 {
+        margin-bottom: 20px;
+    }
+    .cm-mob-mb-30 {
+        margin-bottom: 30px;
+    }
+    .cm-mob-wrap-reverse {
+        flex-wrap: wrap-reverse;
+    }
+    .cm-mob-ptb-0 {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    /* Global End */
+    .cm-header-navbar {
+        padding: 15px 0px;
+    }
+    .cm-header-navbar .logo img {
+        width: 185px;
+    }
+    .dropdown .dropdown-content {
+        background-color: black;
+        margin-top: 15px;
+        max-width: 100%;
+        border-top: 0px;
+        position: unset;
+    }
+    .dropdown {
+        padding: 15px 15px;
+        cursor: pointer;
+        border-bottom: 1px solid;
+        position: unset;
+        width: 100%;
+    }
+    .dropdown button.dropbtn {
+        color: #fff;
+    }
+    /* div#myTopnav {
+        position: absolute;
+        display: grid;
+        top: 80px;
+        width: 100%;
+        z-index: 99;
+        left: 0;
+        color: white;
+        background: #009361;
+    }
+    div#myTopnav {
+        display: none;
+    }
+    div#myTopnav a {
+        padding: 10px 15px;
+        border-bottom: 1px solid;
+        width: 100%;
+    } */
+
+    .topnav{
+        height: 100%; 
+        width: 0; 
+        position: fixed; 
+        z-index: 100; 
+        top: 0; 
+        left: 0;
+        background-color: black; 
+        overflow-x: hidden; 
+        padding-top: 100px; 
+        transition: 0.5s;
+        display: none;
+    }
+
+    .topnav a{
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 25px;
+        color: white;
+        display: block;
+        transition: 0.3s;
+    }
+
+    .topnav .closebtn{
+        position: absolute;
+        top: 0;
+        right: 25px;
+        /* font-size: 36px;
+        margin-left: 50px; */
+
+    }
+
+    a.icon.nav-menu i {
+        font-size: 25px;
+    }
+
+    .cm-prime-btn {
+        border-radius: 10px 10px;
+        padding: 9px 12px;
+        color: white;
+        font-size: 19px;
+        background-color: #00915c;
+        display: inline-block;
+    }
+    .cm-pos-relative.post-detial-banner img {
+        height: 280px;
+    }
+    .animated {
+        /*CSS transitions*/
+        -o-transition-property: none !important;
+        -moz-transition-property: none !important;
+        -ms-transition-property: none !important;
+        -webkit-transition-property: none !important;
+        transition-property: none !important;
+        /*CSS transforms*/
+        -o-transform: none !important;
+        -moz-transform: none !important;
+        -ms-transform: none !important;
+        -webkit-transform: none !important;
+        transform: none !important;
+        /*CSS animations*/
+        -webkit-animation: none !important;
+        -moz-animation: none !important;
+        -o-animation: none !important;
+        -ms-animation: none !important;
+        animation: none !important;
+    }
+    .cm-footer-list,
+    .cm-home-exploredist {
+        padding: 0;
+    }
+    .service-list ul li {
+        width: 100%;
+        margin-bottom: 5px;
+    }
+    .cm-banner-cancellation .image-cancellation img {
+        border-radius: inherit;
+        margin: 0;
+    }
+    /* .category-img {
+          height: 150px;
+      } */
+    .cm-wd-50 {
+        width: 100%;
+    }
+    .cm-flex-type-1 {
+        display: flex;
+        justify-content: start;
+        align-items: flex-start;
+        flex-wrap: wrap;
+    }
+
+    .cm-footer-list h5 {
+        margin-bottom: 8px;
+        margin-top: 20px;
+    }
+
+    .img-text-1 {
+        font-size: 18px;
+        margin-top: -35%;
+    }
+
+    .img-text-2 {
+        font-size: 14px;
+    }
+
+    .img-text-3 {
+        font-size: 14px;
+    }
+
+    /* .pagination-section {
+        margin-left: 10%;
+    } */
+
+    .pagination-section a {
+        padding: 10px 12px;
+        font-size: 10px;
+    }
+
+    .cm-pos-fixed.social-media-icons {
+        /* top: 60%; */
+        display: flex;
+        flex-direction: row;
+    }
+
+    .cm-pos-fixed.social-media-icons .social-media-icons {
+        position: relative;
+        /* right: -100%; */
+        margin-right: -40px;
+        transition: all 0.5s linear;
+    }
+    .cm-pos-fixed.social-media-icons.active .social-media-icons{
+        margin-right: 0;
+    }
+
+    .show, .nav-search, div#myTopnav a.closebtn{
+        display: block;
+    }
+
+    .nav-search{
+        width: 100%;
+    }
+
+    .search-icon{
+        display: none;
+    }
+    /* div#myTopnav {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        align-content: flex-start;
+    } */
+
+    div#myTopnav a {
+        background-color: #009361;
+        color: white;
+    }
+    
+}
+
+@media screen and (max-width: 376px) {
+    .cm-header-navbar .logo img {
+        width: 115px;
+    }
+    .cm-prime-btn {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    /* .footer-logo {
+        width: 200px;
+    } */
+    div#myTopnav a.closebtn {
+        display: block;
+        padding: 15px 0;
+    }
+    h1 {
+        font-size: 40px;
+        margin-top: 20px;
+    }
+    .cm-lr-mob-pad {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .cm-mob-full-width {
+        width: 100% !important;
+    }
+    .cm-mob-none {
+        display: none;
+    }
+    .cm-mob-wrap {
+        flex-wrap: wrap;
+    }
+    .cm-mob-mb-20 {
+        margin-bottom: 20px;
+    }
+    .cm-mob-mb-30 {
+        margin-bottom: 30px;
+    }
+    .cm-mob-wrap-reverse {
+        flex-wrap: wrap-reverse;
+    }
+    .cm-mob-ptb-0 {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+   
+    .dropdown button.dropbtn {
+        color: #fff;
+        margin-left: 10px;
+    }
+    /* div#myTopnav {
+        position: absolute;
+        display: grid;
+        top: 80px;
+        width: 100%;
+        z-index: 99;
+        left: 0;
+        color: white;
+        background: #009361;
+    }
+    div#myTopnav {
+        display: none;
+    }
+    div#myTopnav a {
+        padding: 10px 15px;
+        border-bottom: 1px solid;
+        width: 100%;
+    } */
+
+    .topnav{
+        height: 100%; 
+        width: 0; 
+        position: fixed; 
+        z-index: 100; 
+        top: 0; 
+        left: 0;
+        background-color: black; 
+        overflow-x: hidden; 
+        padding-top: 100px; 
+        transition: 0.5s;
+        display: none;
+    }
+
+    .topnav a{
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 25px;
+        color: white;
+        display: block;
+        transition: 0.3s;
+    }
+
+    .topnav .closebtn{
+        position: absolute;
+        top: 0;
+        right: 25px;
+        /* font-size: 36px;
+        margin-left: 50px; */
+
+    }
+
+    a.icon.nav-menu i {
+        font-size: 25px;
+    }
+    .cm-prime-btn {
+        border-radius: 10px 10px;
+        padding: 9px 12px;
+        color: white;
+        font-size: 15px;
+        background-color: #00915c;
+        display: inline-block;
+    }
+    .cm-pos-relative.post-detial-banner img {
+        height: 280px;
+    }
+    .animated {
+        /*CSS transitions*/
+        -o-transition-property: none !important;
+        -moz-transition-property: none !important;
+        -ms-transition-property: none !important;
+        -webkit-transition-property: none !important;
+        transition-property: none !important;
+        /*CSS transforms*/
+        -o-transform: none !important;
+        -moz-transform: none !important;
+        -ms-transform: none !important;
+        -webkit-transform: none !important;
+        transform: none !important;
+        /*CSS animations*/
+        -webkit-animation: none !important;
+        -moz-animation: none !important;
+        -o-animation: none !important;
+        -ms-animation: none !important;
+        animation: none !important;
+    }
+    .cm-footer-list,
+    .cm-home-exploredist {
+        padding: 0;
+    }
+    .service-list ul li {
+        width: 100%;
+        margin-bottom: 5px;
+    }
+    .cm-banner-cancellation .image-cancellation img {
+        border-radius: inherit;
+        margin: 0;
+    }
+    .cm-footer-list h5 {
+        margin-bottom: 8px;
+        margin-top: 20px;
+    }
+    div#myTopnav {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        align-content: flex-start;
+    }
+    .dropdown .dropdown-content {
+        margin-top: 15px;
+        max-width: 100%;
+        border-top: 0px;
+        position: unset;
+        margin-left: 10px;
+    }
+    .dropdown {
+        padding: 20px 0px;
+        cursor: pointer;
+        border-bottom: 1px solid;
+        position: unset;
+        width: 100%;
+        color: white;
+    }
+    div#myTopnav a {
+        background-color: black;
+        color: white;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .footer-logo {
+        width: 200px;
+    }
+}
+
+@media(max-width: 1023px) {
+    .nav-menu-icon {
+        display: block;
+    }
+}
