@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\HomeController;
+// use App\Http\Controllers\HomeController;
 use App\Http\Controllers\AdminController;
 use App\Http\Controllers\LoginController;
 
@@ -41,15 +41,15 @@ Route::post('admin/question/{id}', [AdminController::class, "questionAns"])->mid
 Route::get('logout', [LoginController::class, "logout"])->middleware('auth')->name('logout');
 
 
-Route::get('/', [HomeController::class, "index"]);
-Route::get('/name-change/{postSlug}', [HomeController::class, "namechangeDetail"]);
-Route::get('/cancellation-policy/{postSlug}', [HomeController::class, "cancellationPolicy"]);
+#Route::get('/', [HomeController::class, "index"]);
+#Route::get('/name-change/{postSlug}', [HomeController::class, "namechangeDetail"]);
+#Route::get('/cancellation-policy/{postSlug}', [HomeController::class, "cancellationPolicy"]);
 
-Route::get('/name-change', [HomeController::class, 'namechangeList']);
+#Route::get('/name-change', [HomeController::class, 'namechangeList']);
 
-Route::get('404', [HomeController::class, "page404"]);
+#Route::get('404', [HomeController::class, "page404"]);
 
-Route::fallback(function () {
-    return redirect('404');
+// Route::fallback(function () {
+//     return redirect('404');
 
-});
+// });

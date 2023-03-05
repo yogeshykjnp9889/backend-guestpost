@@ -25,3 +25,6 @@ Route::get('/get-category', [Apicontroller::class, "getCategory"]);
 Route::get('/category-detail', [Apicontroller::class, "categoryDetail"]);
 Route::get('/category/{cateSlug}', [Apicontroller::class, "categoryWishPost"]);
 Route::get('/get-postdetail', [Apicontroller::class, "PostDetail"]);
+// USer Resgiter and Login
+Route::post('/user-register', [Apicontroller::class, "userRegister"]);
+Route::post('/user-login', [Apicontroller::class, "userLogin"]);
